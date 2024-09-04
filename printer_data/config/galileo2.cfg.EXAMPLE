@@ -1,0 +1,30 @@
+#
+# Galileo2 - [JaredC01/Galileo2](https://github.com/JaredC01/Galileo2)
+#
+
+
+#
+# G2E
+[extruder]
+rotation_distance: 47.088
+gear_ratio: 9:1
+microsteps: 16
+
+[tmc2209 extruder]
+run_current: 0.6
+
+
+#
+# G2Z
+[stepper_z]
+rotation_distance: 40
+gear_ratio: 9:1
+microsteps: 32
+
+[tmc2209 stepper_z]
+run_current: 0.8
+
+
+
+
+# vim: set ft=cfg :
